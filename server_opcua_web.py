@@ -45,7 +45,7 @@ def hello():
 	#Val.set_value(data["Value"])
 	print(data)
 	#teste = {teste: 123, value: 1738}"
-	OPCString.set_value(str(data))
+	OPCString.set_value(json.dumps(data))
 	return "OK"
 
 
